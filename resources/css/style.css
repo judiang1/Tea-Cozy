@@ -16,15 +16,16 @@ display: flex;
 height: 50px;
 width: auto;
 margin-left: 10px;
-margin-right: 45%;
+margin-right: 50%;
+
+
 }
 
 .resize-logo {
 display: flex;
 height: 50px;
 width: auto;
-
-align-content: center
+align-items: center;
 }
 
 .nav-container {
