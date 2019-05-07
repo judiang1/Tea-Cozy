@@ -107,14 +107,14 @@ display: flex;
 flex-direction: column;
 }
 
-img, .fall-berry-img, .spiced-rum-img {
+img, .fall-berry-img, .spiced-rum-img, .seasonal-donuts-img, .myrtle-img, .bedford-img {
 display: flex;
 flex-direction: row;
 width: 300px;
 height: 200px;
 }
 
-.fall-berry-caption, .spiced-rum-caption {
+.fall-berry-caption, .spiced-rum-caption, .donut-caption, .myrtle-caption, .bedford-caption {
 display: flex;
 flex-direction: row;
 width: 300px;
