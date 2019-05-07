@@ -17,6 +17,7 @@ height: 50px;
 width: auto;
 margin-left: 10px;
 margin-right: 50%;
+align-items: center;
 }
 
 .resize-logo {
@@ -85,7 +86,7 @@ flex-direction: row;
 margin-top: -10px;
 }
 
-/* Tea Section Container */
+/* Tea Main Section Container */
 .main-tea-container {
 display: flex;
 flex-direction: row;
@@ -95,6 +96,7 @@ height: 600px;
 background-color: black;
 }
 
+/* Tea of the Month Title */
 .steep, .month {
 display: flex;
 flex-direction: row;
@@ -102,18 +104,16 @@ justify-content: center;
 padding: 10px;
 }
 
-.fall-berry-container {
+.berry-container, .rum-container, .donut-container, .myrtle-container, .bedford-container {
 display: flex;
 flex-direction: column;
 }
-
 
 .resize {
 display: flex;
 flex-direction: row;
 width: 300px;
 height: 200px;
-
 }
 
 .fall-berry-caption, .spiced-rum-caption, .donut-caption, .myrtle-caption, .bedford-caption {
