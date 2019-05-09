@@ -220,6 +220,35 @@ margin-top: 20px;
 }
 
 
+/* Media Section */
+.media-main-container {
+display: flex;
+flex-direction: column;
+width: 1260px;
+height: 300px;
+margin-left: 20px;
+background-color: black;
+border: 1px solid white;
+}
 
+.contact-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 1px solid white;
+}
 
+.tea-cozy-title, .email, .telephone {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+border: 1px solid white;
+}
 
+.copyright, .copyright-container {
+display: flex;
+flex-direction: row;
+text-align: left;
+}
