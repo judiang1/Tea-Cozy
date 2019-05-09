@@ -161,6 +161,8 @@ flex-direction: row;
 width: 1260px;
 height: 500px;
 border: 1px solid rgb(245, 223, 223);
+justify-content: center;
+align-items: center;
 }
 
 h2, .locations-title {
