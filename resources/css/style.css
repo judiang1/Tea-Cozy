@@ -100,8 +100,7 @@ justify-content: center;
 /* Tea Main Section */
 .main-tea-container {
 display: flex;
-flex-direction: row;
-flex-wrap: wrap;
+flex-flow: row wrap;
 width: 1000px;
 height: 600px;
 margin-left: 130px;
@@ -250,5 +249,4 @@ display: flex;
 flex-direction: row;
 align-items: center;
 text-align: left;
-
 }
